@@ -1,10 +1,10 @@
-# Model Card for granite-geospatial-flood-detection-uki
+# Model Card for granite-geospatial-flooddetection-uki
 
 This is a fine-tuned geospatial foundation model for detecting flood and surface water in the United Kingdom and Ireland using multispectral and synthetic aperture radar (SAR) satellite imagery. 
 
 The model predicts areas of water from Sentinel-2 and Sentinel-1 SAR imagery and was trained on flood events from the United Kingdom and Ireland, recorded by the [Copernicus Emergency Management service (CEMS)](https://emergency.copernicus.eu/). Please see the [model description](#model-description) and [training Data](#training-data) below for more details. The model was fine-tuned from the [granite-geospatial-uki model](granite-geospatial-uki-model-card.md), which has also been released. 
 
-You can use granite-geospatial-flood-detection-uki to run inference and detect flood events. Our experiments have shown that while granite-geospatial-flood-detection-uki works best in the UK and Ireland, the base model [granite-geospatial-uki](./granite-geospatial-uki-model-card.md) can also be successfully fine-tuned for flood detection in other locations. Please see the [granite-geospatial-uki model card](./granite-geospatial-uki-model-card.md) for details.
+You can use granite-geospatial-flooddetection-uki to run inference and detect flood events. Our experiments have shown that while granite-geospatial-flooddetection-uki works best in the UK and Ireland, the base model [granite-geospatial-uki](./granite-geospatial-uki-model-card.md) can also be successfully fine-tuned for flood detection in other locations. Please see the [granite-geospatial-uki model card](./granite-geospatial-uki-model-card.md) for details.
 
 <figure>
     <img src='./resources/images/flood_image.jpg' alt='missing' />
@@ -14,7 +14,7 @@ You can use granite-geospatial-flood-detection-uki to run inference and detect f
 
 ## How to Get Started with the Model 
 
-1. [Inference notebook](./notebooks/1_getting_started.ipynb), for running the granite-geospatial-flood-detection-uki model.
+1. [Inference notebook](./notebooks/1_getting_started.ipynb), for running the granite-geospatial-flooddetection-uki model.
 
 2. [Fine-tuning](./notebooks/2_fine_tuning.ipynb) notebooks for fine tuning on other locations using the base model [granite-geospatial-uki](./granite-geospatial-uki-model-card.md)
 
