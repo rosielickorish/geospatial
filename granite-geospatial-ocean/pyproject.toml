@@ -13,7 +13,6 @@ keywords = ["fine-tuning", "geospatial foundation models", "ocean-colour"]
 
 dependencies = [
   "terratorch @ git+https://github.com/IBM/terratorch.git",
-  "notebook>=7.4.5",
 ]
 
 [project.optional-dependencies]
@@ -25,6 +24,9 @@ dev = [
   "pytest",
   "ruff",
   "detect-secrets @ git+https://github.com/ibm/detect-secrets.git@master#egg=detect-secrets"
+]
+notebooks = [
+  "jupyter",
 ]
 
 [tool.setuptools.packages]
