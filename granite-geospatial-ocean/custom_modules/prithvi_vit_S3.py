@@ -146,8 +146,8 @@ prithvi_cfgs = {
 # Timm pretrained configs
 pretrained_weights = {
     "prithvi_s3_v1": {
-        "hf_hub_id": "None",
-        "hf_hub_filename": "None",
+        "hf_hub_id": "ibm-granite/granite-geospatial-ocean",
+        "hf_hub_filename": "checkpoint.pt",
     }
 }
 
