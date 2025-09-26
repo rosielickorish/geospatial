@@ -40,13 +40,14 @@ This work was supported by the Hartree National Centre for Digital Innovation, a
 All content in this repository including code has been provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
 
 ### Citation
-If this model helped your research, please cite [Granite-ocean-gfm](https://arxiv.org/abs/2509.21273) in your publications.
+If this model helped your research, please cite [Granite-geospatial-ocean-Preprint](https://arxiv.org/abs/2509.21273) in your publications.
 
-<!-- ```
+```
 @article{Granite-geospatial-ocean-Preprint,
     author          = {Dawson, Geoffrey and Vandaele, Remy and Taylor, Andrew and Moffat, David and Tamura-Wicks, Helen and Jackson, Sarah and Lickorish, Rosie and Fraccaroa, Paolo and Williams, Hywel and Luo, Chunbo and Jones, Anne},
     month           = Sept,
     title           = {{A Sentinel-3 foundation model for ocean colour}},
-    journal         = {Preprint Available on arxiv:},
+    journal         = {Preprint Available on arxiv: https://arxiv.org/abs/2509.21273},
     year            = {2025}
-} -->
+}
+```
