@@ -1,6 +1,6 @@
 # granite-geospatial-ocean
 
-The granite-geospatial-ocean foundation model was jointly developed by IBM and STFC as part of a collaboration with the University of Exeter and Plymouth Marine Lab under the UK HNCDI programme. This pre-trained model supports a range of potential use cases in ocean ecosystem health, fisheries management, pollution and other ocean processes that can be monitored using ocean colour observations. We provide an example to fine tune the model to quantify primary production by phytoplankton (carbon sequestration which determine's the ocean's role in climate change).
+The granite-geospatial-ocean foundation model was jointly developed by IBM and STFC as part of a collaboration with the University of Exeter and Plymouth Marine Lab under the UK HNCDI programme. This pre-trained model supports a range of potential use cases in ocean ecosystem health, fisheries management, pollution and other ocean processes that can be monitored using ocean colour observations. We provide an example to fine tune the model to quantify primary production by phytoplankton (carbon sequestration which determine's the ocean's role in climate change). For full details of the model pre-training, fine-tuning and evaluation, please see the [preprint paper](https://arxiv.org/abs/2509.21273).
 
 
 ## Architecture Overview
@@ -40,7 +40,7 @@ This work was supported by the Hartree National Centre for Digital Innovation, a
 All content in this repository including code has been provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
 
 ### Citation
-If this model helped your research, please cite [Granite-ocean-gfm](https://github.com/ibm-granite/geospatial/blob/main/granite-geospatial-ocean/granite-geospatial-ocean-preprint.pdf) in your publications.
+If this model helped your research, please cite [Granite-ocean-gfm](https://arxiv.org/abs/2509.21273) in your publications.
 
 <!-- ```
 @article{Granite-geospatial-ocean-Preprint,
